@@ -31,6 +31,5 @@ int main() {
 
     glfwTerminate();
 
-    std::cout << "Got here hence all good";
     return 0;
 }

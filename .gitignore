@@ -1,33 +1,36 @@
-# Prerequisites
-*.d
+##############################
+## Common
+##############################
+**/bin/
+**/build/
+**/out/
+**/tmp/
+**/doc/
+**/log
+**/logs
+**/target/
+**/debug/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+*.log
+*.exe
+*.exe~
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
+*.test
 *.out
-*.app
-VulkanTest
+
+##############################
+## Visual Studio Code
+##############################
+*.vscode/
+.code-workspace
+
+##############################
+## OS X
+##############################
+.DS_Store
+
+##############################
+## Executables and files
+##############################
