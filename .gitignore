@@ -37,3 +37,4 @@
 **/zig-out/
 **/.zig-cache/
 **/.cache/
+VulkanTest
